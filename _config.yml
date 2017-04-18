@@ -9,7 +9,6 @@ highlighter: rouge
 
 gems: [jekyll-paginate]
 paginate: 20
-baseurl: /journal/
 domain_name: 'https://mindbender-studio.github.io/journal'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
