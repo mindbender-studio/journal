@@ -292,6 +292,10 @@ blockquote {
 	border-left: 3px solid #eee;
 }
 
+blockquote p, blockquote p code {
+	color: #afafaf;
+}
+
 hr {
 	display: block;
 	border: none;
@@ -300,7 +304,7 @@ hr {
 	background: #eee;
 }
 
-p code, h2 code {
+p code, h2 code, li code{
 	border: 1px solid #ddd;
     border-radius: 3px;
     padding: 2px;
