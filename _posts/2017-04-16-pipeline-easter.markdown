@@ -1,0 +1,105 @@
+---
+title:  "Pipeline Easter"
+date:   2017-04-16 10:18:00
+description: Initiation of development of 2.0
+---
+
+Hi team,
+
+Here's my summary of the week and plan for the upcoming month.
+
+**Helpful links**
+
+- [Manifesto](http://mindbender-studio.github.io)
+- [Masterplan](https://docs.google.com/document/d/1P_g8hr7kPtFQXyoL-HYxUN823aFNdoXwJ7SxXc8t9SY/edit?usp=sharing)
+- [Timeline](https://docs.google.com/spreadsheets/d/1nXX9BFIywFR-wsUT2-wbpvSL2qz71P9AO0GmghiodKM/edit?usp=sharing)
+- [GitHub project](https://github.com/mindbender-studio)
+- [Launcher discussion](https://github.com/mindbender-studio/core/issues/61)
+
+## What's up
+
+In January this year I implemented the pipeline you know today. It's only 15 days old, in terms of labour, and very much in its infancy, but builds upon my background in animation along with the past few years of developing pipelines such as these for companies such as this. (One of which is of particular interest due to both reaching for similar goals but also in terms of having an almost identical pipeline to us, [Colorbleed](http://www.colorbleed.nl/). More on that in time.)
+
+My plan for a 2.0 is a 52 day effort spread across 6 months as listed in the masterplan above. It's put together based on a healthy mix of what you do right now and what you are going to be doing in the future, based on Michaels "company masterplan".
+
+## This week
+
+I've been at the studio for the past week to (1) meet new faces, (2) talk pipeline but also (3) work with Michael on things separate to Mindbender.
+
+Number (3) has taken up most of my time and energy which was somewhat expected but also unfortunate. The idea moving forwards is to do the opposite, to dedicating myself to the pipeline until the first phase is complete. More on this below. 
+
+The overall goal is to reach a point where the pipeline facilitates a majority of tasks performed today and in future projects, to ultimately be maintained and extended by a junior pipeline TD from 6 months onwards.
+
+## Balance
+
+To architect anything is about balancing vision with requests.
+
+Suggestions I make will typically be made on the basis that it both helps you right now and that it fits into the greater whole. Fitting into the greater whole typically means discovering patterns and automating repetitive tasks in such a way that it lays the groundwork for next steps. This means that sometimes things get automated that you might have wanted control over or vice versa. That's the nature of workflow optimisation and the solution lies in our ability to effectively communicate amongst ourselves. More on this under Collaboration below.
+
+The important bit to me is that you at no point feel ignored, that you feel you are able to influence the direction of the pipeline, so long as you bear in mind that I will be trying my utmost to balance an immediate request with this bigger picture. That doesn't necessarily mean that I have all the answers, just that I'll be perhaps a bit more inquisitive and cautious about implementing things in any particular way, and that we'll often work together to find a compromise between what you need right now and will need in the future.
+
+##### Example
+
+To really drive this last point home I'd like to try and solidify the idea with an example of something that came up last Thursday (hope you don't mind me using it as an example, you know who you are!).
+
+I got a suggestion to add the ability to clone an already loaded asset, as an alternative to loading an asset twice.
+
+The developer brain in me immediately went to work on thinking about how to achieve this challenge. An hour or two I think should do it. But before jumping right in, the most important question I'll ask in order to better understand the motivation behind any request is "Why?"
+
+The reason as it turns out was that loading an asset many times can get tedious, as the artist would be (1) opening the loader, (2) waiting for it to finish listing your asset, (3) loading it and then start again.
+
+This is the pain point. The core of the matter. The request was founded on top of this pain point and it's this pain point that I will be trying to identify whenever any request is made.
+
+And like with any pain point, there are more than one way to address it.
+
+In this particular case, a clone tool. To select an already loaded asset, perhaps by its shape in the Maya viewport, and hit "Clone Asset" (for example). A really good idea that would have solved the pain point.
+
+We got lucky this time around, the pain point had already been recognised and a feature implemented to relieve it in the form of a "Auto Close" toggle, checked by default. Unchecking this would keep the dialog open after load and enable the user to load the same thing multiple times.
+
+Neither is better than the other and in fact both could co-exist to serve slightly different use cases. The point here is that often times the pain points you have will end up being solved in a slightly different way than you first imagined - either due to having it fit into the bigger picture, or based on the amount of required labour and sometimes (hopefully seldomly) my personal preference.
+
+Solving the pain point is always going to be the number one priority.
+
+## Collaboration
+
+GitHub is at the centre of our ability to collaborate.
+
+We'll use it to communicate both while I'm away and sitting right next to you in the office. The power of communication happening on GitHub lies in the fact that we get to think about and document our route. This will pay off both immediately and in the future as it means our motivations reach a consensus internally and that effort is less likely to be duplicated with the arrival of each new artist or developer joining the team.
+
+For suggestions for improvements, questions, problems or bugs regarding the pipeline and workflow, please familiarise yourself with the Issue Tracking aspect of GitHub. Here you'll find current suggestions and concerns. Your mission is to fill this up, mine is to empty it.
+
+Each "issue" (as they are called on GitHub) should typically contain the following pieces of information.
+
+| Type   | Description
+|:----------|:-------------
+| Goal   | How do we know when this issue is finished? A concrete, short summary of what you hope to accomplish with this issue.
+| Motivation | What made you think of this issue? This is important in gaining a better understanding of what exactly you hope to achieve, and to spot whether an existing solution is already in place.
+| Suggested solution | If you have an idea of how to solve the problem in mind, feel free to suggest it. But try and keep an open mind to how the pain point ends up being solved.
+
+The above mostly relates to features and bugs, for questions and other issues the only important bit is that the information is clear. Think about writing it for someone entirely new to the topic, like a new starter. This is something I expect will take some time getting used to.
+
+## Next Steps
+
+Next week I'll be away (keywords: birthday, girlfriend, paris, surprise). I'll remain in London the following week and aim to get a 1.0 of the mb.bat replacement, a.k.a. "Launcher" into your hands.
+
+My goal is to fast-track the 52 day plan outlined above; getting 80% done in the first two months, followed by 4 months of actually using, improving upon what's been done and build the remaining 20%.
+
+At the end of 6 months, I expect everything to be in place, ready to grow.
+
+To put a picture in your head, I drew this.
+
+![image](https://cloud.githubusercontent.com/assets/2152766/25123401/1aa84322-2420-11e7-80b1-1736c7d5f646.png)
+
+All those little branches and twigs, major branches connected by smaller ones; that's where most of the work lies and is the kind of work which involves us all. This is the kind of work well suited for a junior pipeline td, where I maintain oversight but remain less involved in implementing new features or putting out daily fires.
+
+## Weekly Email
+
+About this email, you'll see many more like it.
+
+I'll be putting together emails such as these on a regular basis, typically by the end of each week. My goal is for it to shed some light on what's going on and to solidify the events of the week. It's also a chance for you to point out things of interest that might have escaped my attention.
+
+Finally, I hope this gives you some idea of what lies ahead! I will be doing my part in making Mindbender the greatest animation shop in Europe, and think that if we play our cards right the world is at our feet.
+
+Happy Easter.
+
+M
