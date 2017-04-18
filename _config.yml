@@ -9,16 +9,16 @@ highlighter: rouge
 
 gems: [jekyll-paginate]
 paginate: 20
-domain_name: 'https://mindbender-studio.github.io/journal'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: "https://mindbender-studio.github.io/journal"
+google_analytics: "UA-XXXXXXXX-X"
 disqus: false
-disqus_shortname: 'your-disqus-shortname'
+disqus_shortname: "your-disqus-shortname"
 
 # Details for the RSS feed generator
-url:            'https://mindbender-studio.github.io/journal'
-author:         'Mindbender'
+url: "https://mindbender-studio.github.io/journal"
+author: "Mindbender"
 
-permalink:       /:year/:title/
+permalink: /:year/:title/
 
 defaults:
     -
