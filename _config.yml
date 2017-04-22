@@ -4,7 +4,7 @@ meta_description: "Journal of important events related to the Mindbender pipelin
 markdown: kramdown
 gems: [jekyll-paginate]
 paginate: 20
-baseurl: journal
+baseurl: /journal
 permalink: /:year/:title/
 defaults:
     -
