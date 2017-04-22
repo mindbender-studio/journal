@@ -111,13 +111,10 @@ h2 {
 nav.main-nav {
 	padding: 20px 20px 0;
 
-	/*max-width: 600px;*/
-	/*width:100%;*/
 	background: #fff;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
 	text-align: right;
-	/*position: fixed;*/
 	z-index: 100;
 }
 
@@ -127,7 +124,6 @@ nav.main-nav a {
 	padding: 8px 12px;
 	color: #5badf0;
 	font-size: 13px;
-	/*font-weight: bold;*/
 	line-height: 1.35;
 	border-radius: 3px;
 
@@ -249,14 +245,12 @@ em, i {
 
 
 .post h2.headline {
-	/*font: italic 22px/1.3em Georgia,serif;*/
 	font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
 	margin: -5px 0 40px 0;
 	color: #b2b9be;
 	  font-size: 13px;
 	  text-transform: uppercase;
 	  letter-spacing: 2px;
-	  /*margin-top: 15px;*/
 	  display: inline-block;
 }
 
@@ -330,10 +324,8 @@ span.code {
 pre	{
 	font-family:Menlo, Monaco, Courier;
 	white-space:pre-wrap;
-	/*border: 1px solid #ddd;*/
 	padding:20px;
 	background-color:#fdfdfd;
-	/*font-size:14px;*/
 	overflow:auto;
 	border-radius: 3px;
 	background: #272b2d;
