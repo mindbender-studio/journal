@@ -6,6 +6,7 @@ gems: [jekyll-paginate]
 paginate: 20
 baseurl: /journal
 permalink: /:year/:title/
+author: Mindbender
 defaults:
     -
         scope:
