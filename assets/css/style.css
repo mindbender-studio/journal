@@ -128,6 +128,7 @@ nav.main-nav a {
 	border-radius: 3px;
 
 }
+
 nav.main-nav a.cta {
 	background: #5badf0;
 	color: #fff;
@@ -383,7 +384,6 @@ img {
 	margin: 0 auto;
 	max-width: 100%;
 	border-radius: 3px;
-	padding: 10px;
 }
 
 /* Made with Cactus Badge */
