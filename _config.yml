@@ -1,11 +1,11 @@
 name: Mindbender Development Journal
-description: Mindbender Development Journal
+description: development journal
 meta_description: "Journal of important events related to the Mindbender pipeline."
 markdown: kramdown
 gems: [jekyll-paginate]
 paginate: 20
 baseurl: /journal
-permalink: /:year/:title/
+permalink: /p/:title/
 author: Mindbender
 defaults:
     -
