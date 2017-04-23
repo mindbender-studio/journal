@@ -18,12 +18,7 @@
   {% if page.profile %}
       {% include profile.html %}
   {% endif %}
-<!-- 
-  <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
-  <div class="calendar">Loading the data just for you.</div>
-  <script>GitHubCalendar(".calendar", "mottosso");</script>
- -->
+
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
     {{ content }}
   </section>
