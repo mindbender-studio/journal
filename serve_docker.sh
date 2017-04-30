@@ -7,4 +7,6 @@ docker run \
 	--baseurl /journal \
 	--force_polling \
 	-H 0.0.0.0 \
-	--port 4000
+	--port 4000 \
+	--verbose \
+	--future
