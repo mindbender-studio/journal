@@ -324,8 +324,6 @@ span.code {
 
 pre	{
 	font-family:Menlo, Monaco, Courier;
-	white-space:pre-wrap;
-	padding:20px;
 	background-color:#fdfdfd;
 	overflow:auto;
 	border-radius: 3px;
@@ -335,8 +333,22 @@ pre	{
 	  line-height: 1.5em;
 	  font-weight: 500;
 	color: #d0d4d7;
-
 }
+
+
+code::-webkit-scrollbar, pre::-webkit-scrollbar
+{
+	height: 15px;
+	background-color: #272b2d;
+}
+
+code::-webkit-scrollbar-thumb, pre::-webkit-scrollbar-thumb
+{
+	background-color: #111;
+	border: 2px solid #272b2d;
+	border-radius: 3px;
+}
+
 
 table {
 	width: 100%;
