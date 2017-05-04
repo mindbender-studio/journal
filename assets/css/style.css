@@ -180,9 +180,15 @@ a,
 }
 
 ol, ul {
-	margin-left: 20px;
+	margin-left: 40px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+li ol, li ul {
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 /* Line Height */
