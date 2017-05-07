@@ -48,12 +48,12 @@ margin-bottom: 20px;
 }
 
 big {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	line-height: 1em;
 }
 
 small {
-	font-size: 0.85em;
+	font-size: 0.9em;
 }
 
 /* Base */
@@ -320,6 +320,7 @@ p code, h2 code, li code{
     font-size: 0.75em;
     font-family: consolas;
     color: #222;
+	white-space: nowrap
 }
 
 h2 code {
