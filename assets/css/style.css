@@ -294,12 +294,18 @@ p.small {
 }
 
 blockquote {
-	padding-left: 15px;
-	border-left: 3px solid #eee;
+    margin: 0;
+    padding: 2px;
+    border-left: 10px solid #439DD2;
+    background: #D9EDF9;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
+    margin-bottom: 0.85em;
 }
 
 blockquote p, blockquote p code {
-	color: #afafaf;
+    color: #333;
 }
 
 hr {
@@ -533,7 +539,6 @@ Post List
 }
 
 #sharing a:hover {
-	/*color: #444;*/
 	opacity: 0.8;
 }
 
