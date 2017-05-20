@@ -47,6 +47,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	padding-bottom: 56.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
+	margin-bottom: 40px;
+	margin-top: 40px;
 }
 .videoWrapper iframe {
 	position: absolute;
@@ -315,11 +317,12 @@ blockquote {
     padding-top: 10px;
     padding-left: 15px;
     padding-right: 5px;
-    margin-bottom: 0.85em;
+    margin-bottom: 20px;
 }
 
 blockquote p, blockquote p code {
     color: #333;
+    margin-bottom: 7px;
 }
 
 hr {
@@ -424,6 +427,10 @@ img {
 	margin: 0 auto;
 	max-width: 100%;
 	border-radius: 3px;
+}
+
+.shadow {
+	box-shadow: 2px 2px 24px #ddd;
 }
 
 /* Made with Cactus Badge */
