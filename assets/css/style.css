@@ -221,6 +221,10 @@ ol, ul {
 	margin-bottom: 20px;
 }
 
+td ul {
+	margin: 0px;
+}
+
 li ol, li ul {
 	margin-left: 20px;
 	margin-top: 0px;
