@@ -347,7 +347,7 @@ p code, h2 code, li code{
     font-size: 0.75em;
     font-family: consolas;
     color: #222;
-	white-space: nowrap
+	white-space: nowrap;
 }
 
 h2 code {
